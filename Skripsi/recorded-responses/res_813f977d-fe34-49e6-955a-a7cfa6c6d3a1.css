@@ -1,0 +1,232 @@
+/* .split{
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow: hidden;
+  padding-top: 20px;
+}
+.left{
+  left: 0;
+  background-color: white;
+}
+.right{
+  right: 0;
+  background-color: black;
+}
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+} */
+#answer1{
+    background-color: #4CAF50;
+    margin: auto;
+    padding: 30px 20px;
+    height: 50%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+#answer2{
+    background-color: #f94a1e;
+    margin: auto;
+    padding: 30px 20px;
+    height: 50%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+#answer3{
+    background-color: #3399ff;
+    margin: auto;
+    padding: 30px 20px;
+    height: 50%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+#answer4{
+    background-color: #ff9933;
+    margin: auto;
+    padding: 30px 20px;
+    height: 50%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+.square{
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    width: 70px;
+    height: 0px;
+    font-size: 20px;
+}
+
+#square1{
+    background-color: #4CAF50;
+}
+#square2{
+    background-color: #f94a1e;
+}
+#square3{
+    background-color: #3399ff;
+}
+#square4{
+    background-color: #ff9933;
+}
+
+#nextQButton{
+  width: 25%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 20px;
+  background-color: #3A3B3A;
+  font-family: 'Raleway', sans-serif;
+  text-align: : center;
+}
+#question{
+    font-family: 'Raleway', sans-serif;
+    width: 50%;
+    padding: 12px 0px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+    text-align: center;
+}
+#rightquestion{
+    font-family: 'Raleway', sans-serif;
+    width: 50%;
+    padding: 12px 0px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+    text-align: center;
+}
+#tolobby{
+  width: 25%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 20px;
+  background-color: #3A3B3A;
+  font-family: 'Raleway', sans-serif;
+  text-align: : center;
+}
+#timerText{
+    font-family: 'Raleway', sans-serif;
+}
+#num{
+    font-family: 'Tajawal', sans-serif;
+    font-size: 35px;
+}
+#playersAnswered{
+    font-family: 'Tajawal', sans-serif;
+}
+#questionNum{
+    font-family: 'Tajawal', sans-serif;
+}
+
+#winner1{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    display: none;
+}
+#winner2{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 22px;
+    display: none;
+}
+#winner3{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    display: none;
+}
+#winner4{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    display: none;
+}
+#winner5{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    display: none;
+}
+#winnerTitle{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    color: #3399ff;
+    display: none;
+}
+#pertanyaan {
+  font-family: 'Raleway', sans-serif;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 20px;
+  text-align: center;
+}
+
+#pembahasan {
+  font-family: 'Raleway', sans-serif;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 18px;
+  text-align: center;
+}
+#gameend {
+  font-family: 'Raleway', sans-serif;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* image section */
+/* img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.blureed3{
+  filter: blur(0.5rem);
+}
+.blureed2{
+  filter: blur(1rem);
+}
+.blureed1{
+  filter: blur(1.5rem);
+} */

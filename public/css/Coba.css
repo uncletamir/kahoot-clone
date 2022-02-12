@@ -1,0 +1,53 @@
+body {
+  background:#f9f9f9;
+  font-family: 'Roboto', sans-serif;
+ }
+ .container {
+   width:600px;
+   text-align:center;
+   margin:70px auto;
+ }
+h3 {
+  color:#1cb7b0;
+  font-size: 3em;
+  letter-spacing:.leam;
+  margin-top:0;
+  margin-bottom:10px
+}
+h4 {
+  font-size:. 8em;
+  margin-top:0;
+  margin-bottom:40px;
+  text-transform:uppercase;
+}
+frame-tugas {
+  width:300px;
+  margin:0 auto;
+  text-align:left;
+}
+#daftarTugas {
+  padding:0;
+  list-style:none
+}
+daftarTugas li {
+  background:#efefef;
+  padding:8px 15px;
+  border-radius:5px;
+  color:#888;
+  margin-bottom:15px;
+  display:flex;
+  justify-content:space-between
+}
+#daftarTugas li i {
+  cursor:pointer
+}
+#daftarTugas li i:hover {
+  color:red
+}
+#inputTugas {
+  padding:8px;
+  width:194px
+}
+#btnTugas {
+  padding:8px 5px
+}

@@ -1,0 +1,13 @@
+# Project description file
+
+project.name=Skripsi
+project.version=8.1
+project.original.version=8.1
+product.name=NeoLoad
+product.original.name=NeoLoad
+product.version=7.6.0
+product.original.version=7.6.0
+project.id=36d70d6d-78ed-4436-92b2-28b13197a080
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=false

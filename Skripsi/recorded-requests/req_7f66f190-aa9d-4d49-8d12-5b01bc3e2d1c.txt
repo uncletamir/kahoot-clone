@@ -1,0 +1,15 @@
+GET https://29.client-channel.google.com/client-channel/channel/bind?ctype=hangouts&prop=aChromeExtension&appver=babel-chat.frontend_20201008.05_p1&gsessionid=LqfTX7UsRnITgQuNkMGsgxxe1OdXJxQL6jGaIAZ8iXw&VER=8&RID=rpc&SID=BE56F54EEAC0FE34&CI=0&AID=1108&TYPE=xmlhttp&zx=v5hxhycnt64u&t=1 HTTP/2.0
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+x-origin: https://hangouts.google.com
+x-goog-authuser: 0
+authorization: SAPISIDHASH 1602498691_29b86d7fef2c1c72f9bbfb2f23017307ab2ce46d
+accept: */*
+x-client-data: CJC2yQEIpbbJAQjBtskBCKmdygEImbXKAQj2x8oBCOfIygEI6cjKAQi0y8oBCNzVygEIwtfKAQif2MoB
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://29.client-channel.google.com/client-channel/client?cfg=%7B%222%22%3A%22hangouts%22%2C%226%22%3A%22aChromeExtension%22%2C%227%22%3A%22babel-chat.frontend_20201008.05_p1%22%2C%228%22%3Afalse%2C%2213%22%3Afalse%7D&ctype=hangouts&xpc=%7B%22cn%22%3A%22BbefkQfIBB%22%2C%22tp%22%3A1%2C%22osh%22%3Anull%2C%22ppu%22%3A%22https%3A%2F%2Fhangouts.google.com%2Frobots.txt%22%2C%22lpu%22%3A%22https%3A%2F%2F29.client-channel.google.com%2Frobots.txt%22%7D
+accept-encoding: gzip, deflate, br
+accept-language: id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7
+cookie: CONSENT=YES+ID.id+; HSID=AAeLp1DlGGrj1rMBw; SSID=ArhCuwfQBdlVXBqiL; APISID=ZeAXz2QBSUJ3NcXd/A63sX6Xij70Hhvtmn; SAPISID=NTdEswFPIoKadzK1/Aor5XypWv-4RKxYqP; __Secure-3PAPISID=NTdEswFPIoKadzK1/Aor5XypWv-4RKxYqP; SEARCH_SAMESITE=CgQI6JAB; SID=2AcnyjpFwNuZyR4FJjIT9xinpkH-UtM-cqbzohRzw9wEMZH9JCR-XbSDUIOkbUDKHnGqcg.; __Secure-3PSID=2AcnyjpFwNuZyR4FJjIT9xinpkH-UtM-cqbzohRzw9wEMZH94u5SwMTZsUqvmrg4OVPIsw.; ANID=AHWqTUlsvJg0M-6jW1kGL_HKUik0cA1tbOw6XUPrsHz6MAbuJJ-IFi8bP6d2iNTJ; 1P_JAR=2020-10-12-17; NID=204=ylBX_Y5bGU6lGZOkV-vJYU2j9FkNQRaoEysO9zj5bnLEmt4ip1Ox3UFwNMgi0bOweSbj94zB_6rCKAZoO1_exyqF2e9bOvx1j-DjCYZ4RVzGAJNv0ZGsKRn9A3dbA1AvcxgE0Rla6yTkazfAqYO2KLKYVHRezPvSiZxHJ8nXJ2aCFkqquW7io-9dA2wr8yZak63dBjrQahgo0y4B111p25J1LYBU-wgtDh0u1pk2vcLNZzgLh_sO0Nio-DXKiBeO8fT1difjxiiNsOKumjDasuXzJs2QhHj3ajLOcK3vnlXDdPNNgxRNYqUmV71KuJ2nciBvxKlxTR6WulGYYz96MVS59Yj_IsZsPUPvyVgYeEYeL1DgOAC8E9fR14BLKHf6KpyEF5IjGvzV3KS0XyyA6r9krdYyAUqRNEMVV6f5sWqwDRmlyAIehgtgjbXJOLT5OneUzSVnS3Yu6wUXS9Ekhq5sbQDZxC8bSEVI30_rUQTXT_BjCCYgT0H5T2qvhwCbHoPbprAi-tC3yA00bkFcKjFcEYCqGxFdwLiLnUe33sxxrUsr8zXoot2_tm1XdITGjSXiOyuAPpxBq-X4p-kZPTzQ9fErzz22LUsqQrz3J-BBjyPsw2Jf0JjEnPWfhYBvu1seN6uVDFg; SIDCC=AJi4QfGPRAmITBPHCdbkc9hPAN7Ge1ALKKhTrByMNkGJjeJzoRaQmg54LgGFO-l_3GA8Vq7tTgQ; __Secure-3PSIDCC=AJi4QfF2Uu5pSTrmtm-MjjyeFeWkfMKkTCrsGKeSnGoGNJ8nRjKLdmIpjK20c8ATVJnaf3MShcN9
+

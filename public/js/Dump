@@ -1,0 +1,82 @@
+var list = document.getElementById('allgamelist');
+var listTr = document.getElementById('list');
+var newListTr = document.createElement("tr");
+var listEditButton = document.getElementById('editbutton');
+var newListEditButton = document.createElement("td");
+var listDeleteButton = document.getElementById('deletbutton');
+var newListDeleteButton = document.createElement("td");
+
+var listLabel = document.createElement('label');
+var listEditButton = document.createElement('button');
+var listDeleteButton = document.createElement('button');
+
+listLabel.innerHTML = data[i].name;
+listLabel.setAttribute('class', 'list');
+listLabel.setAttribute('id', 'gameList' + data[i].id);
+listLabel.setAttribute('type', 'text');
+
+listEditButton.innerHTML = "EDIT";
+listEditButton.setAttribute('class', 'editbutton');
+listEditButton.setAttribute('id', 'edit' + data[i].id);
+listEditButton.setAttribute('type', 'button');
+
+listDeleteButton.innerHTML = "DELETE";
+listDeleteButton.setAttribute('class', 'deletebutton');
+listDeleteButton.setAttribute('id', 'delete' + data[i].id);
+listDeleteButton.setAttribute('type', 'button');
+
+newListTr.setAttribute('id', 'game-list');
+newListTr.appendChild(listLabel);
+newListEditButton.appendChild(listEditButton);
+newListDeleteButton.appendChild(listDeleteButton);
+listTr.appendChild(newListTr);
+
+//from create game
+/*
+var listDiv = document.getElementById('allgamelist');
+var newListDiv = document.createElement("div");
+
+var listLabel = document.createElement('label');
+var listEditButton = document.createElement('button');
+var listDeleteButton = document.createElement('button');
+
+listLabel.innerHTML = data[i].name;
+listLabel.setAttribute('class', 'list');
+listLabel.setAttribute('id', 'gameList' + data[i].id);
+listLabel.setAttribute('type', 'text');
+
+listEditButton.innerHTML = "EDIT";
+listEditButton.setAttribute('class', 'editbutton');
+listEditButton.setAttribute('id', 'edit' + data[i].id);
+listEditButton.setAttribute('type', 'button');
+
+listDeleteButton.innerHTML = "DELETE";
+listDeleteButton.setAttribute('class', 'deletebutton');
+listDeleteButton.setAttribute('id', 'delete' + data[i].id);
+listDeleteButton.setAttribute('type', 'button');
+
+newListDiv.setAttribute('id', 'game-list');
+newListDiv.appendChild(listLabel);
+newListDiv.appendChild(listEditButton);
+newListDiv.appendChild(listDeleteButton);
+listDiv.appendChild(newListDiv);
+*/
+/*
+  var div = document.getElementById('game-list');
+  var lable = document.createElement('lable');
+  */
+/*
+  lable.innerHTML = data[i].name;
+  lable.setAttribute('class', 'list');
+  lable.setAttribute('id','gameList' + data[i].id);
+
+  lable.setAttribute('label', "gameList('" + data[i].id + "')");
+  lable.setAttribute('id', 'gameButton');
+  */
+/*
+  div.appendChild(lable);
+
+  div.appendChild(document.createElement('br'));
+
+  div.appendChild(document.createElement('li'));
+  div.appendChild(document.createElement('br')); */

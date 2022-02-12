@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Game | GAMMA</title>
+        <link rel = "stylesheet" href = "../../css/playerGameView.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+        <script src = "../../socket.io/socket.io.js"></script>
+        <script src = "../../js/libs/jqueryLibrary.js"></script>
+        <script src = "../../js/libs/deparam.js"></script>
+        <script src = "../../js/playerGame.js"></script>
+    </head>
+    <body>
+        <div id = "stats">
+            <h4 id = "nameText">Name: </h4>
+            <h4 id = "scoreText">Score: </h4>
+            <h4 id = "rankText"></h4>
+        </div>
+        <h2 id = "message"></h2>
+        <input id = "answer1" type = "text" class="form-control" name="answer1" placeholder="Jawaban" autofocus/>
+        <button type="button" id="myBtn">Try it</button>
+        <form action="../../main.html">
+        <button id = "tolobby">Lobby</button>
+        </form>
+        </div>
+      </div>
+      <script>
+          document.getElementById('answer1').addEventListener('keypress', function(event){
+            if (event.keyCode == 13){
+              event.preventDefault();
+            }
+          });
+
+          $(document).ready(function(){
+              // Get value on button click and show alert
+              $("#myBtn").click(function(){
+                  var str = $("#answer1").val();
+                  answerSubmitted(str);
+              });
+          });
+      </script>
+      </body>
+</html>

@@ -1,0 +1,12 @@
+GET http://192.168.18.9:3000/css/hostGameView.css HTTP/1.1
+Host: 192.168.18.9:3000
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+Accept: text/css,*/*;q=0.1
+Referer: http://192.168.18.9:3000/host/game/?id=Du86fLO6n0XNwIIQAAAB
+Accept-Encoding: gzip, deflate
+Accept-Language: id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: connect.sid=s%3AUnOWj7oZ8_cRl0WgG6XjV0Js906kVsPv.JPj%2F6ToauY33uVSlYVeN3GytiLbyFWMyh2WpioIYZNY; io=Du86fLO6n0XNwIIQAAAB
+If-None-Match: W/"1079-1751710eb00"
+If-Modified-Since: Sun, 11 Oct 2020 09:49:46 GMT
+

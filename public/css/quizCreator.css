@@ -1,0 +1,30 @@
+#question-field{
+    border-style: groove;
+    border-width: 1px;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+.question{
+    width: 400px;
+    font-family: 'Raleway', sans-serif;
+}
+.correct{
+    width: 150px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+#title{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+#quizTitle{
+    font-family: 'Raleway', sans-serif;
+}
+.pertanyaan{
+    width: 400px;
+    font-family: 'Raleway', sans-serif;
+}
+.pembahasan{
+    width: 400px;
+    font-family: 'Raleway', sans-serif;
+}

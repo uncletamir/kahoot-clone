@@ -1,0 +1,8 @@
+POST https://beacons.gcp.gvt2.com/domainreliability/upload HTTP/2.0
+content-length: 599
+content-type: application/json; charset=utf-8
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+accept-encoding: gzip, deflate, br
+accept-language: id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7
+
+{"entries":[{"failure_data":{"custom_error":"net::ERR_CERT_AUTHORITY_INVALID"},"network_changed":false,"protocol":"","request_age_ms":65829,"request_elapsed_ms":2417,"sample_rate":1.0,"server_ip":"","status":"ssl.cert.authority_invalid","url":"https://fonts.googleapis.com/","was_proxied":false},{"failure_data":{"custom_error":"net::ERR_CERT_AUTHORITY_INVALID"},"network_changed":false,"protocol":"","request_age_ms":36601,"request_elapsed_ms":42,"sample_rate":1.0,"server_ip":"","status":"ssl.cert.authority_invalid","url":"https://fonts.googleapis.com/","was_proxied":false}],"reporter":"chrome"}

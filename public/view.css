@@ -1,0 +1,107 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #556b2f;
+    background-color: #7afbfb;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #2e3436;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+
+body {
+
+    background: url("../images/5.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+p {
+	color: #ef2929;
+}
+
+#d3 {
+
+    background-color:black;
+    border : 2px solid black;
+    color : white;
+    text-align:center;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #ef2929;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #ad7fa8;
+}
+
+form {
+    border-radius: 5px;
+    background-color: #8a2be2;
+    padding: 20px;
+    margin-right:20%;
+    margin-left: 20%;
+}
+
+table { 
+    border-collapse: collapse; 
+    font-family:Arial;
+}
+
+td { 
+    border: 1px solid black; 
+    padding: 5px;
+}
+
+th { 
+    border: 1px solid black; 
+    padding: 5px; 
+    text-align: left;
